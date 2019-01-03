@@ -1,0 +1,12 @@
+# Info:
+	- For the structure of the analysis macro, please refer to the Makefile
+	- For usage and specification, refer to main analysis macro
+	- The work directory is this folder
+	- Document/ directory is for my presentaton. 
+	- XYReconstructor/ directory have Masa's xy recon class
+	- XY4SLADSelector/ directory have my selector (where it make cuts and fill histograms) 
+	- plotter.C is to make pretty plots from analysis macro, saved to plots folder
+	- LinkDef.h is necessary
+	- by default, a log txt file will be generated
+	- for now, xy_profile_329_Iter.root is needed for LRF for xy
+	- for now, max_s1_frac_cut_fixed_acceptance_full_stats.root is needed for s1 max frac cut
